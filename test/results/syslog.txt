@@ -1,0 +1,1254 @@
+20161022 09:41:57.483 | INFO  | Robot Framework 3.0 (Python 2.7.12 on win32)
+20161022 09:41:57.484 | INFO  | Arguments: unit,E:\Selenium2Library-devloping-elvis\test\acceptance
+20161022 09:41:57.485 | INFO  | Settings:
+ConsoleColors: AUTO
+ConsoleMarkers: AUTO
+ConsoleType: verbose
+ConsoleTypeDotted: False
+ConsoleTypeQuiet: False
+ConsoleWidth: 78
+Critical: None
+DebugFile: None
+Doc: Selenium acceptance tests with chrome
+DryRun: False
+Exclude: []
+ExitOnError: False
+ExitOnFailure: False
+FlattenKeywords: []
+Include: []
+Listeners: []
+Log: None
+LogLevel: DEBUG
+LogTitle: None
+Metadata: []
+Name: None
+NonCritical: [u'known_issue_-_python2.7', u'known_issue_-_chrome']
+Output: output.xml
+OutputDir: E:\Selenium2Library-devloping-elvis\test\results
+PreRebotModifiers: []
+PreRunModifiers: []
+Randomize: NONE
+ReRunFailed: []
+RemoveKeywords: []
+Report: None
+ReportBackground: ('#9e9', '#9e9', '#f66')
+ReportTitle: None
+RunEmptySuite: False
+SetTag: []
+SkipTeardownOnExit: False
+SplitLog: False
+StatusRC: True
+StdErr: None
+StdOut: None
+SuiteNames: []
+SuiteStatLevel: -1
+TagDoc: []
+TagStatCombine: []
+TagStatExclude: []
+TagStatInclude: []
+TagStatLink: []
+TestNames: []
+TimestampOutputs: False
+VariableFiles: []
+Variables: [u'browser:chrome', u'pyversion:python2.7']
+VisibleLogLevel: DEBUG
+WarnOnSkipped: False
+XUnit: None
+XUnitSkipNonCritical: False
+20161022 09:41:57.485 | INFO  | Parsing test data directory 'E:\Selenium2Library-devloping-elvis\test\unit'
+20161022 09:41:57.485 | INFO  | Ignoring file or directory '__init__.py'.
+20161022 09:41:57.485 | INFO  | Ignoring file or directory 'test_webdrivermonkeypatches.py'.
+20161022 09:41:57.485 | INFO  | Ignoring file or directory 'test_webdrivermonkeypatches.pyc'.
+20161022 09:41:57.485 | INFO  | Parsing test data directory 'E:\Selenium2Library-devloping-elvis\test\unit\keywords'
+20161022 09:41:57.485 | INFO  | Ignoring file or directory '__init__.py'.
+20161022 09:41:57.486 | INFO  | Ignoring file or directory '__init__.pyc'.
+20161022 09:41:57.486 | INFO  | Ignoring file or directory 'test_browsermanagement.py'.
+20161022 09:41:57.486 | INFO  | Ignoring file or directory 'test_browsermanagement.pyc'.
+20161022 09:41:57.486 | INFO  | Parsing test data directory 'E:\Selenium2Library-devloping-elvis\test\unit\locators'
+20161022 09:41:57.486 | INFO  | Ignoring file or directory '__init__.py'.
+20161022 09:41:57.486 | INFO  | Ignoring file or directory '__init__.pyc'.
+20161022 09:41:57.486 | INFO  | Ignoring file or directory 'test_elementfinder.py'.
+20161022 09:41:57.486 | INFO  | Ignoring file or directory 'test_elementfinder.pyc'.
+20161022 09:41:57.486 | INFO  | Ignoring file or directory 'test_tableelementfinder.py'.
+20161022 09:41:57.486 | INFO  | Ignoring file or directory 'test_tableelementfinder.pyc'.
+20161022 09:41:57.486 | INFO  | Ignoring file or directory 'test_windowmanager.py'.
+20161022 09:41:57.486 | INFO  | Ignoring file or directory 'test_windowmanager.pyc'.
+20161022 09:41:57.486 | INFO  | Parsing test data directory 'E:\Selenium2Library-devloping-elvis\test\unit\utils'
+20161022 09:41:57.486 | INFO  | Ignoring file or directory '__init__.py'.
+20161022 09:41:57.486 | INFO  | Ignoring file or directory '__init__.pyc'.
+20161022 09:41:57.486 | INFO  | Ignoring file or directory 'test_browsercache.py'.
+20161022 09:41:57.487 | INFO  | Ignoring file or directory 'test_browsercache.pyc'.
+20161022 09:41:57.487 | INFO  | Ignoring file or directory 'test_package.py'.
+20161022 09:41:57.487 | INFO  | Ignoring file or directory 'test_package.pyc'.
+20161022 09:41:57.487 | INFO  | Parsing test data directory 'E:\Selenium2Library-devloping-elvis\test\acceptance'
+20161022 09:41:57.487 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\__init__.robot'.
+20161022 09:41:57.488 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\create_webdriver.robot'.
+20161022 09:41:57.490 | INFO  | Parsing test data directory 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords'
+20161022 09:41:57.490 | INFO  | Ignoring file or directory 'executed_by_execute_javascript.js'.
+20161022 09:41:57.490 | INFO  | Ignoring file or directory 'variables.py'.
+20161022 09:41:57.491 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\__init__.robot'.
+20161022 09:41:57.491 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\async_javascript.robot'.
+20161022 09:41:57.495 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\checkbox_and_radio_buttons.robot'.
+20161022 09:41:57.499 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\click_element.robot'.
+20161022 09:41:57.500 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\click_element_at_coordinates.robot'.
+20161022 09:41:57.501 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\content_assertions.robot'.
+20161022 09:41:57.512 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\cookies.robot'.
+20161022 09:41:57.514 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\element_should_be_enabled_and_disabled.robot'.
+20161022 09:41:57.517 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\elements.robot'.
+20161022 09:41:57.520 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\forms_and_buttons.robot'.
+20161022 09:41:57.523 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\frames.robot'.
+20161022 09:41:57.525 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\javascript.robot'.
+20161022 09:41:57.529 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\lists.robot'.
+20161022 09:41:57.537 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\mouse.robot'.
+20161022 09:41:57.538 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\navigation.robot'.
+20161022 09:41:57.543 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\run_on_failure.robot'.
+20161022 09:41:57.545 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\screenshots.robot'.
+20161022 09:41:57.548 | INFO  | Parsing test data directory 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables'
+20161022 09:41:57.548 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\__init__.robot'.
+20161022 09:41:57.549 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\col_should_contain.robot'.
+20161022 09:41:57.550 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\finding_tables.robot'.
+20161022 09:41:57.551 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\footer_should_contain.robot'.
+20161022 09:41:57.552 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\get_table_cell.robot'.
+20161022 09:41:57.553 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\header_should_contain.robot'.
+20161022 09:41:57.555 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\negative_indexes.robot'.
+20161022 09:41:57.556 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\row_should_contain.robot'.
+20161022 09:41:57.558 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\table_resource.robot'.
+20161022 09:41:57.558 | INFO  | Parsing data source 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\table_resource.robot' failed: File has no test case table.
+20161022 09:41:57.558 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\table_should_contain.robot'.
+20161022 09:41:57.561 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\textfields.robot'.
+20161022 09:41:57.563 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\waiting.robot'.
+20161022 09:41:57.566 | INFO  | Parsing test data directory 'E:\Selenium2Library-devloping-elvis\test\acceptance\locators'
+20161022 09:41:57.567 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\locators\__init__.robot'.
+20161022 09:41:57.567 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\locators\custom.robot'.
+20161022 09:41:57.569 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\locators\sizzle.robot'.
+20161022 09:41:57.570 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\multiple_browsers.robot'.
+20161022 09:41:57.574 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\open_and_close.robot'.
+20161022 09:41:57.575 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot'.
+20161022 09:41:57.579 | INFO  | Parsing data source 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' failed: File has no test case table.
+20161022 09:41:57.579 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\windows.robot'.
+20161022 09:41:57.624 | INFO  | No debug file
+20161022 09:41:57.628 | INFO  | Initializing namespace for test suite 'Unit & Acceptance'
+20161022 09:41:57.631 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:41:57.643 | INFO  | Imported library 'BuiltIn' with arguments [ ] (version 3.0, class type, global scope, 101 keywords)
+20161022 09:41:57.644 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:41:57.646 | INFO  | Imported library 'Reserved' with arguments [ ] (version <unknown>, dynamic type, global scope, 10 keywords)
+20161022 09:41:57.646 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:41:57.647 | INFO  | Adding keyword 'logger' to library 'Easter' failed: Not a method or function
+20161022 09:41:57.647 | INFO  | Imported library 'Easter' with arguments [ ] (version <unknown>, module type, global scope, 1 keywords)
+20161022 09:41:57.649 | INFO  | Started test suite 'Unit & Acceptance'
+20161022 09:41:57.650 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Unit'
+20161022 09:41:57.650 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:41:57.650 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:41:57.651 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:41:57.651 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:41:57.651 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:41:57.651 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:41:57.652 | INFO  | Started test suite 'Unit'
+20161022 09:41:57.654 | INFO  | Ended test suite 'Unit'
+20161022 09:41:57.655 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance'
+20161022 09:41:57.655 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:41:57.655 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:41:57.656 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:41:57.656 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:41:57.656 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:41:57.656 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:41:57.656 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot'.
+20161022 09:41:57.659 | INFO  | Imported resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' (9 keywords).
+20161022 09:41:57.731 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:41:57.732 | INFO  | No keyword will be run on failure.
+20161022 09:41:57.743 | INFO  | Adding keyword 'screenshot_root_directory' to library 'Selenium2Library' failed: Not a method or function
+20161022 09:41:57.747 | INFO  | Imported library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] (version 1.8.0, class type, global scope, 164 keywords, with listener)
+20161022 09:41:57.749 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:41:57.754 | INFO  | Imported library 'Collections' with arguments [ ] (version 3.0, class type, global scope, 43 keywords)
+20161022 09:41:57.755 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:41:57.760 | INFO  | Imported library 'OperatingSystem' with arguments [ ] (version 3.0, class type, global scope, 56 keywords)
+20161022 09:41:57.763 | INFO  | Started test suite 'Acceptance'
+20161022 09:41:57.763 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Create Webdriver'
+20161022 09:41:57.764 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:41:57.764 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:41:57.764 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:41:57.764 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:41:57.765 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:41:57.765 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:41:57.765 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:41:57.766 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:41:57.766 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:41:57.766 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:41:57.766 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:41:57.766 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:41:57.767 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:41:57.767 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:41:57.767 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:41:57.767 | INFO  | Test library 'Collections' already imported by suite 'Unit & Acceptance.Acceptance.Create Webdriver'
+20161022 09:41:57.768 | INFO  | Started test suite 'Create Webdriver'
+20161022 09:41:57.769 | INFO  | Started test case 'Create Webdriver Creates Functioning WebDriver'
+20161022 09:42:05.625 | INFO  | Ended test case 'Create Webdriver Creates Functioning WebDriver'
+20161022 09:42:05.628 | INFO  | Started test case 'Create Webdriver With Bad Driver Name'
+20161022 09:42:05.642 | INFO  | Ended test case 'Create Webdriver With Bad Driver Name'
+20161022 09:42:05.644 | INFO  | Started test case 'Create Webdriver With Duplicate Arguments'
+20161022 09:42:05.650 | INFO  | Ended test case 'Create Webdriver With Duplicate Arguments'
+20161022 09:42:05.652 | INFO  | Started test case 'Create Webdriver With Bad Keyword Argument Dictionary'
+20161022 09:42:05.657 | INFO  | Ended test case 'Create Webdriver With Bad Keyword Argument Dictionary'
+20161022 09:42:05.662 | INFO  | Ended test suite 'Create Webdriver'
+20161022 09:42:05.664 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords'
+20161022 09:42:05.664 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:42:05.665 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:42:05.665 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:42:05.665 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:42:05.666 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:42:05.666 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:42:05.667 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:42:05.668 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:42:05.668 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:42:05.669 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:42:05.669 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:42:05.669 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:42:05.670 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:42:05.674 | INFO  | Started test suite 'Keywords'
+20161022 09:42:09.759 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Async Javascript'
+20161022 09:42:09.759 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:42:09.760 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:42:09.760 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:42:09.760 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:42:09.760 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:42:09.760 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:42:09.761 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:42:09.761 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:42:09.762 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:42:09.762 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:42:09.762 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:42:09.762 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:42:09.763 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:42:09.764 | INFO  | Started test suite 'Async Javascript'
+20161022 09:42:09.765 | INFO  | Started test case 'Should Not Timeout If Callback Invoked Immediately'
+20161022 09:42:09.993 | INFO  | Ended test case 'Should Not Timeout If Callback Invoked Immediately'
+20161022 09:42:09.995 | INFO  | Started test case 'Should Be Able To Return Javascript Primitives From Async Scripts Neither None Nor Undefined'
+20161022 09:42:10.119 | INFO  | Ended test case 'Should Be Able To Return Javascript Primitives From Async Scripts Neither None Nor Undefined'
+20161022 09:42:10.120 | INFO  | Started test case 'Should Be Able To Return Javascript Primitives From Async Scripts Null And Undefined'
+20161022 09:42:10.158 | INFO  | Ended test case 'Should Be Able To Return Javascript Primitives From Async Scripts Null And Undefined'
+20161022 09:42:10.158 | INFO  | Started test case 'Should Be Able To Return An Array Literal From An Async Script'
+20161022 09:42:10.189 | INFO  | Ended test case 'Should Be Able To Return An Array Literal From An Async Script'
+20161022 09:42:10.190 | INFO  | Started test case 'Should Be Able To Return An Array Object From An Async Script'
+20161022 09:42:10.475 | INFO  | Ended test case 'Should Be Able To Return An Array Object From An Async Script'
+20161022 09:42:10.476 | INFO  | Started test case 'Should Be Able To Return Arrays Of Primitives From Async Scripts'
+20161022 09:42:10.820 | INFO  | Ended test case 'Should Be Able To Return Arrays Of Primitives From Async Scripts'
+20161022 09:42:10.821 | INFO  | Started test case 'Should Timeout If Script Does Not Invoke Callback'
+20161022 09:42:21.115 | INFO  | Ended test case 'Should Timeout If Script Does Not Invoke Callback'
+20161022 09:42:21.117 | INFO  | Started test case 'Should Timeout If Script Does Not Invoke Callback With A Zero Timeout'
+20161022 09:42:31.256 | INFO  | Ended test case 'Should Timeout If Script Does Not Invoke Callback With A Zero Timeout'
+20161022 09:42:31.257 | INFO  | Started test case 'Should Not Timeout If Script Callsback Inside A Zero Timeout'
+20161022 09:42:31.593 | INFO  | Ended test case 'Should Not Timeout If Script Callsback Inside A Zero Timeout'
+20161022 09:42:31.594 | INFO  | Started test case 'Should Timeout If Script Does Not Invoke Callback With Long Timeout'
+20161022 09:42:32.384 | INFO  | Ended test case 'Should Timeout If Script Does Not Invoke Callback With Long Timeout'
+20161022 09:42:32.386 | INFO  | Started test case 'Should Detect Page Loads While Waiting On An Async Script And Return An Error'
+20161022 09:42:32.769 | INFO  | Ended test case 'Should Detect Page Loads While Waiting On An Async Script And Return An Error'
+20161022 09:42:32.770 | INFO  | Started test case 'Should Catch Errors When Executing Initial Script'
+20161022 09:42:32.796 | INFO  | Ended test case 'Should Catch Errors When Executing Initial Script'
+20161022 09:42:32.807 | INFO  | Ended test suite 'Async Javascript'
+20161022 09:42:32.808 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Checkbox And Radio Buttons'
+20161022 09:42:32.809 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:42:32.809 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:42:32.809 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:42:32.809 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:42:32.809 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:42:32.810 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:42:32.810 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:42:32.810 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:42:32.811 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:42:32.811 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:42:32.811 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:42:32.811 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:42:32.811 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:42:32.813 | INFO  | Started test suite 'Checkbox And Radio Buttons'
+20161022 09:42:32.814 | INFO  | Started test case 'Checkbox Should Be Selected'
+20161022 09:42:33.093 | INFO  | Ended test case 'Checkbox Should Be Selected'
+20161022 09:42:33.094 | INFO  | Started test case 'Checkbox Should Not Be Selected'
+20161022 09:42:33.160 | INFO  | Ended test case 'Checkbox Should Not Be Selected'
+20161022 09:42:33.160 | INFO  | Started test case 'Select Checkbox'
+20161022 09:42:33.520 | INFO  | Ended test case 'Select Checkbox'
+20161022 09:42:33.521 | INFO  | Started test case 'UnSelect Checkbox'
+20161022 09:42:33.636 | INFO  | Ended test case 'UnSelect Checkbox'
+20161022 09:42:33.637 | INFO  | Started test case 'Radio Button Should Be Set To'
+20161022 09:42:33.902 | INFO  | Ended test case 'Radio Button Should Be Set To'
+20161022 09:42:33.902 | INFO  | Started test case 'Select Radio Button'
+20161022 09:42:34.110 | INFO  | Ended test case 'Select Radio Button'
+20161022 09:42:34.111 | INFO  | Started test case 'Radio Button Should Not Be Selected'
+20161022 09:42:34.301 | INFO  | Ended test case 'Radio Button Should Not Be Selected'
+20161022 09:42:34.302 | INFO  | Started test case 'Clicking Radio Button Should Trigger Onclick Event'
+20161022 09:42:34.376 | INFO  | Ended test case 'Clicking Radio Button Should Trigger Onclick Event'
+20161022 09:42:34.382 | INFO  | Ended test suite 'Checkbox And Radio Buttons'
+20161022 09:42:34.384 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Click Element'
+20161022 09:42:34.384 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:42:34.384 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:42:34.385 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:42:34.385 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:42:34.385 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:42:34.385 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:42:34.385 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:42:34.386 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:42:34.387 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:42:34.387 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:42:34.387 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:42:34.387 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:42:34.388 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:42:34.391 | INFO  | Started test suite 'Click Element'
+20161022 09:42:34.430 | INFO  | Started test case 'Click Element'
+20161022 09:42:34.714 | INFO  | Ended test case 'Click Element'
+20161022 09:42:34.716 | INFO  | Started test case 'Double Click Element'
+20161022 09:42:35.114 | INFO  | Ended test case 'Double Click Element'
+20161022 09:42:35.117 | INFO  | Ended test suite 'Click Element'
+20161022 09:42:35.118 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Click Element At Coordinates'
+20161022 09:42:35.118 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:42:35.118 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:42:35.119 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:42:35.119 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:42:35.119 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:42:35.119 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:42:35.119 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:42:35.120 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:42:35.120 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:42:35.120 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:42:35.121 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:42:35.121 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:42:35.121 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:42:35.122 | INFO  | Started test suite 'Click Element At Coordinates'
+20161022 09:42:35.438 | INFO  | Started test case 'Click Element At Coordinates'
+20161022 09:42:35.879 | INFO  | Ended test case 'Click Element At Coordinates'
+20161022 09:42:35.881 | INFO  | Ended test suite 'Click Element At Coordinates'
+20161022 09:42:35.881 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Content Assertions'
+20161022 09:42:35.882 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:42:35.882 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:42:35.882 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:42:35.882 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:42:35.882 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:42:35.883 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:42:35.883 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:42:35.883 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:42:35.884 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:42:35.884 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:42:35.884 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:42:35.884 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:42:35.885 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:42:35.887 | INFO  | Started test suite 'Content Assertions'
+20161022 09:42:35.888 | INFO  | Started test case 'Location Should Be'
+20161022 09:42:35.919 | INFO  | Ended test case 'Location Should Be'
+20161022 09:42:35.920 | INFO  | Started test case 'Location Should Contain'
+20161022 09:42:35.947 | INFO  | Ended test case 'Location Should Contain'
+20161022 09:42:35.948 | INFO  | Started test case 'Title Should Be'
+20161022 09:42:36.241 | INFO  | Ended test case 'Title Should Be'
+20161022 09:42:36.242 | INFO  | Started test case 'Page Should Contain'
+20161022 09:42:36.337 | INFO  | Ended test case 'Page Should Contain'
+20161022 09:42:36.338 | INFO  | Started test case 'Page Should Contain With Custom Log Level'
+20161022 09:42:36.381 | INFO  | Ended test case 'Page Should Contain With Custom Log Level'
+20161022 09:42:36.382 | INFO  | Started test case 'Page Should Contain With Disabling Source Logging'
+20161022 09:42:36.740 | INFO  | Ended test case 'Page Should Contain With Disabling Source Logging'
+20161022 09:42:36.741 | INFO  | Started test case 'Page Should Contain With Frames'
+20161022 09:42:37.438 | INFO  | Ended test case 'Page Should Contain With Frames'
+20161022 09:42:37.439 | INFO  | Started test case 'Page Should Not Contain'
+20161022 09:42:37.488 | INFO  | Ended test case 'Page Should Not Contain'
+20161022 09:42:37.488 | INFO  | Started test case 'Page Should Not Contain With Custom Log Level'
+20161022 09:42:37.522 | INFO  | Ended test case 'Page Should Not Contain With Custom Log Level'
+20161022 09:42:37.522 | INFO  | Started test case 'Page Should Not Contain With Disabling Source Logging'
+20161022 09:42:37.782 | INFO  | Ended test case 'Page Should Not Contain With Disabling Source Logging'
+20161022 09:42:37.782 | INFO  | Started test case 'Page Should Contain Element'
+20161022 09:42:37.836 | INFO  | Ended test case 'Page Should Contain Element'
+20161022 09:42:37.838 | INFO  | Started test case 'Page Should Contain Element With Custom Message'
+20161022 09:42:38.197 | INFO  | Ended test case 'Page Should Contain Element With Custom Message'
+20161022 09:42:38.197 | INFO  | Started test case 'Page Should Contain Element With Disabling Source Logging'
+20161022 09:42:38.428 | INFO  | Ended test case 'Page Should Contain Element With Disabling Source Logging'
+20161022 09:42:38.429 | INFO  | Started test case 'Page Should Not Contain Element'
+20161022 09:42:38.544 | INFO  | Ended test case 'Page Should Not Contain Element'
+20161022 09:42:38.545 | INFO  | Started test case 'Page Should Not Contain Element With Disabling Source Logging'
+20161022 09:42:38.782 | INFO  | Ended test case 'Page Should Not Contain Element With Disabling Source Logging'
+20161022 09:42:38.783 | INFO  | Started test case 'Element Should Contain'
+20161022 09:42:38.925 | INFO  | Ended test case 'Element Should Contain'
+20161022 09:42:38.926 | INFO  | Started test case 'Element Should Not Contain'
+20161022 09:42:39.170 | INFO  | Ended test case 'Element Should Not Contain'
+20161022 09:42:39.171 | INFO  | Started test case 'Element Text Should Be'
+20161022 09:42:39.289 | INFO  | Ended test case 'Element Text Should Be'
+20161022 09:42:39.289 | INFO  | Started test case 'Get Text'
+20161022 09:42:39.550 | INFO  | Ended test case 'Get Text'
+20161022 09:42:39.551 | INFO  | Started test case 'Element Should Be Visible'
+20161022 09:42:39.668 | INFO  | Ended test case 'Element Should Be Visible'
+20161022 09:42:39.668 | INFO  | Started test case 'Element Should Not Be Visible'
+20161022 09:42:39.942 | INFO  | Ended test case 'Element Should Not Be Visible'
+20161022 09:42:39.944 | INFO  | Started test case 'Page Should Contain Checkbox'
+20161022 09:42:40.034 | INFO  | Ended test case 'Page Should Contain Checkbox'
+20161022 09:42:40.035 | INFO  | Started test case 'Page Should Not Contain Checkbox'
+20161022 09:42:40.088 | INFO  | Ended test case 'Page Should Not Contain Checkbox'
+20161022 09:42:40.089 | INFO  | Started test case 'Page Should Contain Radio Button'
+20161022 09:42:40.344 | INFO  | Ended test case 'Page Should Contain Radio Button'
+20161022 09:42:40.345 | INFO  | Started test case 'Page Should Not Contain Radio Button'
+20161022 09:42:40.436 | INFO  | Ended test case 'Page Should Not Contain Radio Button'
+20161022 09:42:40.437 | INFO  | Started test case 'Page Should Contain Image'
+20161022 09:42:41.032 | INFO  | Ended test case 'Page Should Contain Image'
+20161022 09:42:41.032 | INFO  | Started test case 'Page Should Not Contain Image'
+20161022 09:42:41.401 | INFO  | Ended test case 'Page Should Not Contain Image'
+20161022 09:42:41.402 | INFO  | Started test case 'Page Should Contain Link'
+20161022 09:42:41.485 | INFO  | Ended test case 'Page Should Contain Link'
+20161022 09:42:41.486 | INFO  | Started test case 'Page Should Not Contain Link'
+20161022 09:42:41.535 | INFO  | Ended test case 'Page Should Not Contain Link'
+20161022 09:42:41.535 | INFO  | Started test case 'Page Should Contain List'
+20161022 09:42:41.597 | INFO  | Ended test case 'Page Should Contain List'
+20161022 09:42:41.598 | INFO  | Started test case 'Page Should Not Contain List'
+20161022 09:42:41.642 | INFO  | Ended test case 'Page Should Not Contain List'
+20161022 09:42:41.643 | INFO  | Started test case 'Page Should Contain TextField'
+20161022 09:42:41.747 | INFO  | Ended test case 'Page Should Contain TextField'
+20161022 09:42:41.748 | INFO  | Started test case 'Page Should Not Contain Text Field'
+20161022 09:42:42.105 | INFO  | Ended test case 'Page Should Not Contain Text Field'
+20161022 09:42:42.106 | INFO  | Started test case 'TextField Should Contain'
+20161022 09:42:42.476 | INFO  | Ended test case 'TextField Should Contain'
+20161022 09:42:42.477 | INFO  | Started test case 'TextField Value Should Be'
+20161022 09:42:42.654 | INFO  | Ended test case 'TextField Value Should Be'
+20161022 09:42:42.655 | INFO  | Started test case 'TextArea Should Contain'
+20161022 09:42:43.113 | INFO  | Ended test case 'TextArea Should Contain'
+20161022 09:42:43.114 | INFO  | Started test case 'TextArea Value Should Be'
+20161022 09:42:43.391 | INFO  | Ended test case 'TextArea Value Should Be'
+20161022 09:42:43.392 | INFO  | Started test case 'Page Should Contain Button'
+20161022 09:42:43.713 | INFO  | Ended test case 'Page Should Contain Button'
+20161022 09:42:43.714 | INFO  | Started test case 'Page Should Not Contain Button In Button Tag'
+20161022 09:42:43.785 | INFO  | Ended test case 'Page Should Not Contain Button In Button Tag'
+20161022 09:42:43.786 | INFO  | Started test case 'Page Should Not Contain Button In Input Tag'
+20161022 09:42:44.085 | INFO  | Ended test case 'Page Should Not Contain Button In Input Tag'
+20161022 09:42:44.086 | INFO  | Started test case 'Get All Links'
+20161022 09:42:44.345 | INFO  | Ended test case 'Get All Links'
+20161022 09:42:44.346 | INFO  | Started test case 'Xpath Should Match X Times'
+20161022 09:42:44.408 | INFO  | Ended test case 'Xpath Should Match X Times'
+20161022 09:42:44.409 | INFO  | Started test case 'Locator Should Match X Times'
+20161022 09:42:44.470 | INFO  | Ended test case 'Locator Should Match X Times'
+20161022 09:42:44.485 | INFO  | Ended test suite 'Content Assertions'
+20161022 09:42:44.488 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Cookies'
+20161022 09:42:44.489 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:42:44.489 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:42:44.489 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:42:44.489 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:42:44.490 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:42:44.490 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:42:44.490 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:42:44.491 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:42:44.491 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:42:44.492 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:42:44.492 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:42:44.492 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:42:44.492 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:42:44.493 | INFO  | Started test suite 'Cookies'
+20161022 09:42:44.515 | INFO  | Started test case 'Get Cookies'
+20161022 09:42:44.549 | INFO  | Ended test case 'Get Cookies'
+20161022 09:42:44.549 | INFO  | Started test case 'Get Cookie Value Set By Selenium'
+20161022 09:42:44.589 | INFO  | Ended test case 'Get Cookie Value Set By Selenium'
+20161022 09:42:44.590 | INFO  | Started test case 'Get Cookie Value Set By App'
+20161022 09:42:44.683 | INFO  | Ended test case 'Get Cookie Value Set By App'
+20161022 09:42:44.684 | INFO  | Started test case 'App Sees Cookie Set By Selenium'
+20161022 09:42:44.809 | INFO  | Ended test case 'App Sees Cookie Set By Selenium'
+20161022 09:42:44.810 | INFO  | Started test case 'Delete Cookie'
+20161022 09:42:44.877 | INFO  | Ended test case 'Delete Cookie'
+20161022 09:42:44.878 | INFO  | Started test case 'Non-existent Cookie'
+20161022 09:42:44.905 | INFO  | Ended test case 'Non-existent Cookie'
+20161022 09:42:44.905 | INFO  | Started test case 'Get Cookies When There Are None'
+20161022 09:42:44.958 | INFO  | Ended test case 'Get Cookies When There Are None'
+20161022 09:42:44.966 | INFO  | Ended test suite 'Cookies'
+20161022 09:42:44.966 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Element Should Be Enabled And Disabled'
+20161022 09:42:44.967 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:42:44.967 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:42:44.967 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:42:44.967 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:42:44.968 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:42:44.968 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:42:44.968 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:42:44.969 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:42:44.970 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:42:44.970 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:42:44.970 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:42:44.970 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:42:44.971 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:42:44.973 | INFO  | Started test suite 'Element Should Be Enabled And Disabled'
+20161022 09:42:44.974 | INFO  | Started test case 'Input Text'
+20161022 09:42:45.164 | INFO  | Ended test case 'Input Text'
+20161022 09:42:45.165 | INFO  | Started test case 'Input Password'
+20161022 09:42:45.480 | INFO  | Ended test case 'Input Password'
+20161022 09:42:45.481 | INFO  | Started test case 'Input Button'
+20161022 09:42:45.597 | INFO  | Ended test case 'Input Button'
+20161022 09:42:45.598 | INFO  | Started test case 'Textarea'
+20161022 09:42:45.974 | INFO  | Ended test case 'Textarea'
+20161022 09:42:45.974 | INFO  | Started test case 'Button'
+20161022 09:42:46.089 | INFO  | Ended test case 'Button'
+20161022 09:42:46.089 | INFO  | Started test case 'Option'
+20161022 09:42:46.394 | INFO  | Ended test case 'Option'
+20161022 09:42:46.394 | INFO  | Started test case 'Disabled with different syntaxes'
+20161022 09:42:46.573 | INFO  | Ended test case 'Disabled with different syntaxes'
+20161022 09:42:46.574 | INFO  | Started test case 'Not Input nor Editable Element'
+20161022 09:42:46.757 | INFO  | Ended test case 'Not Input nor Editable Element'
+20161022 09:42:46.761 | INFO  | Ended test suite 'Element Should Be Enabled And Disabled'
+20161022 09:42:46.762 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Elements'
+20161022 09:42:46.762 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:42:46.763 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:42:46.763 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:42:46.763 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:42:46.763 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:42:46.763 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:42:46.764 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:42:46.764 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:42:46.764 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:42:46.765 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:42:46.765 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:42:46.765 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:42:46.765 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:42:46.767 | INFO  | Started test suite 'Elements'
+20161022 09:42:46.768 | INFO  | Started test case 'Get Elements'
+20161022 09:42:46.808 | INFO  | Ended test case 'Get Elements'
+20161022 09:42:46.809 | INFO  | Started test case 'Get Web Element'
+20161022 09:42:46.930 | INFO  | Ended test case 'Get Web Element'
+20161022 09:42:46.930 | INFO  | Started test case 'More Get Elements'
+20161022 09:42:47.104 | INFO  | Ended test case 'More Get Elements'
+20161022 09:42:47.105 | INFO  | Started test case 'Assign Id To Element'
+20161022 09:42:47.523 | INFO  | Ended test case 'Assign Id To Element'
+20161022 09:42:47.523 | INFO  | Started test case 'Get Element Attribute'
+20161022 09:42:47.923 | INFO  | Ended test case 'Get Element Attribute'
+20161022 09:42:47.924 | INFO  | Started test case 'Get Matching XPath Count'
+20161022 09:42:47.973 | INFO  | Ended test case 'Get Matching XPath Count'
+20161022 09:42:47.974 | INFO  | Started test case 'Get Horizontal Position'
+20161022 09:42:48.031 | INFO  | Ended test case 'Get Horizontal Position'
+20161022 09:42:48.031 | INFO  | Started test case 'Get Vertical Position'
+20161022 09:42:48.077 | INFO  | Ended test case 'Get Vertical Position'
+20161022 09:42:48.078 | INFO  | Started test case 'Get Element Size'
+20161022 09:42:48.146 | INFO  | Ended test case 'Get Element Size'
+20161022 09:42:48.147 | INFO  | Started test case 'Get Empty Element Size'
+20161022 09:42:48.506 | INFO  | Ended test case 'Get Empty Element Size'
+20161022 09:42:48.510 | INFO  | Ended test suite 'Elements'
+20161022 09:42:48.511 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Forms And Buttons'
+20161022 09:42:48.512 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:42:48.513 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:42:48.513 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:42:48.513 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:42:48.513 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:42:48.514 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:42:48.514 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:42:48.517 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:42:48.518 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:42:48.518 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:42:48.519 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:42:48.519 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:42:48.520 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:42:48.520 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:42:48.520 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:42:48.520 | INFO  | Test library 'OperatingSystem' already imported by suite 'Unit & Acceptance.Acceptance.Keywords.Forms And Buttons'
+20161022 09:42:48.525 | INFO  | Started test suite 'Forms And Buttons'
+20161022 09:42:48.526 | INFO  | Started test case 'Submit Form'
+20161022 09:42:48.856 | INFO  | Ended test case 'Submit Form'
+20161022 09:42:48.857 | INFO  | Started test case 'Submit Form Without Args'
+20161022 09:42:49.188 | INFO  | Ended test case 'Submit Form Without Args'
+20161022 09:42:49.188 | INFO  | Started test case 'Click Ok Button By Name'
+20161022 09:42:49.444 | INFO  | Ended test case 'Click Ok Button By Name'
+20161022 09:42:49.444 | INFO  | Started test case 'Click Cancel Button By Name'
+20161022 09:42:49.535 | INFO  | Ended test case 'Click Cancel Button By Name'
+20161022 09:42:49.536 | INFO  | Started test case 'Click Ok Button By Value'
+20161022 09:42:49.867 | INFO  | Ended test case 'Click Ok Button By Value'
+20161022 09:42:49.868 | INFO  | Started test case 'Click Cancel Button By Value'
+20161022 09:42:49.949 | INFO  | Ended test case 'Click Cancel Button By Value'
+20161022 09:42:49.949 | INFO  | Started test case 'Click button created with <button> by id'
+20161022 09:42:50.056 | INFO  | Ended test case 'Click button created with <button> by id'
+20161022 09:42:50.057 | INFO  | Started test case 'Click button created with <button> by value attribute'
+20161022 09:42:50.194 | INFO  | Ended test case 'Click button created with <button> by value attribute'
+20161022 09:42:50.195 | INFO  | Started test case 'Click button created with <button> by tag content'
+20161022 09:42:50.383 | INFO  | Ended test case 'Click button created with <button> by tag content'
+20161022 09:42:50.384 | INFO  | Started test case 'Choose File'
+20161022 09:42:50.626 | INFO  | Ended test case 'Choose File'
+20161022 09:42:50.627 | INFO  | Started test case 'Click Image With Submit Type Images'
+20161022 09:42:51.374 | INFO  | Ended test case 'Click Image With Submit Type Images'
+20161022 09:42:51.380 | INFO  | Ended test suite 'Forms And Buttons'
+20161022 09:42:51.381 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Frames'
+20161022 09:42:51.381 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:42:51.382 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:42:51.382 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:42:51.382 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:42:51.382 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:42:51.382 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:42:51.383 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:42:51.384 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:42:51.384 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:42:51.384 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:42:51.384 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:42:51.384 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:42:51.385 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:42:51.386 | INFO  | Started test suite 'Frames'
+20161022 09:42:51.387 | INFO  | Started test case 'Frame Should Contain'
+20161022 09:42:51.800 | INFO  | Ended test case 'Frame Should Contain'
+20161022 09:42:51.800 | INFO  | Started test case 'Frame Should Contain should also work with iframes'
+20161022 09:42:52.200 | INFO  | Ended test case 'Frame Should Contain should also work with iframes'
+20161022 09:42:52.201 | INFO  | Started test case 'Page Should Contain Text Within Frames'
+20161022 09:42:52.621 | INFO  | Ended test case 'Page Should Contain Text Within Frames'
+20161022 09:42:52.621 | INFO  | Started test case 'Page Should Contain Text Within Frames should also work with iframes'
+20161022 09:42:52.745 | INFO  | Ended test case 'Page Should Contain Text Within Frames should also work with iframes'
+20161022 09:42:52.745 | INFO  | Started test case 'Select And Unselect Frame'
+20161022 09:42:53.132 | INFO  | Ended test case 'Select And Unselect Frame'
+20161022 09:42:53.133 | INFO  | Started test case 'Select And Unselect Frame should also work with iframes'
+20161022 09:42:53.333 | INFO  | Ended test case 'Select And Unselect Frame should also work with iframes'
+20161022 09:42:53.334 | INFO  | Started test case 'Select Frame with non-unique name attribute'
+20161022 09:42:53.625 | INFO  | Ended test case 'Select Frame with non-unique name attribute'
+20161022 09:42:53.630 | INFO  | Ended test suite 'Frames'
+20161022 09:42:53.631 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Javascript'
+20161022 09:42:53.632 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:42:53.632 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:42:53.632 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:42:53.632 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:42:53.632 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:42:53.633 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:42:53.633 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:42:53.633 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:42:53.634 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:42:53.634 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:42:53.634 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:42:53.634 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:42:53.634 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:42:53.636 | INFO  | Started test suite 'Javascript'
+20161022 09:42:53.636 | INFO  | Started test case 'Clicking Elements Should Activate Javascript'
+20161022 09:42:53.712 | INFO  | Ended test case 'Clicking Elements Should Activate Javascript'
+20161022 09:42:53.712 | INFO  | Started test case 'Alert Should Be Present'
+20161022 09:42:54.011 | INFO  | Ended test case 'Alert Should Be Present'
+20161022 09:42:54.014 | INFO  | Started test case 'Get Alert Message'
+20161022 09:42:58.936 | INFO  | Ended test case 'Get Alert Message'
+20161022 09:42:58.937 | INFO  | Started test case 'Read Alert Message'
+20161022 09:43:03.910 | INFO  | Ended test case 'Read Alert Message'
+20161022 09:43:03.911 | INFO  | Started test case 'Input Text Into Prompt'
+20161022 09:43:04.060 | INFO  | Ended test case 'Input Text Into Prompt'
+20161022 09:43:04.061 | INFO  | Started test case 'Mouse Down On Link'
+20161022 09:43:04.857 | INFO  | Ended test case 'Mouse Down On Link'
+20161022 09:43:04.858 | INFO  | Started test case 'Confirm Action'
+20161022 09:43:04.997 | INFO  | Ended test case 'Confirm Action'
+20161022 09:43:04.998 | INFO  | Started test case 'Cancel Action'
+20161022 09:43:05.128 | INFO  | Ended test case 'Cancel Action'
+20161022 09:43:05.129 | INFO  | Started test case 'Execute Javascript'
+20161022 09:43:05.490 | INFO  | Ended test case 'Execute Javascript'
+20161022 09:43:05.491 | INFO  | Started test case 'Execute Javascript from File'
+20161022 09:43:05.756 | INFO  | Ended test case 'Execute Javascript from File'
+20161022 09:43:05.757 | INFO  | Started test case 'Open Context Menu'
+20161022 09:43:06.488 | INFO  | Ended test case 'Open Context Menu'
+20161022 09:43:06.488 | INFO  | Started test case 'Drag and Drop'
+20161022 09:43:07.298 | INFO  | Ended test case 'Drag and Drop'
+20161022 09:43:07.299 | INFO  | Started test case 'Drag and Drop by Offset'
+20161022 09:43:07.774 | INFO  | Ended test case 'Drag and Drop by Offset'
+20161022 09:43:07.781 | INFO  | Ended test suite 'Javascript'
+20161022 09:43:07.783 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Lists'
+20161022 09:43:07.783 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:07.784 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:07.784 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:07.784 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:07.784 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:07.785 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:07.785 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:07.785 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:07.786 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:07.786 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:07.787 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:07.787 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:07.787 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:07.788 | INFO  | Started test suite 'Lists'
+20161022 09:43:07.789 | INFO  | Started test case 'Get List Items From Single-Select List'
+20161022 09:43:07.919 | INFO  | Ended test case 'Get List Items From Single-Select List'
+20161022 09:43:07.920 | INFO  | Started test case 'Get List Items From Multi-Select List'
+20161022 09:43:08.059 | INFO  | Ended test case 'Get List Items From Multi-Select List'
+20161022 09:43:08.060 | INFO  | Started test case 'Get Selected List Value'
+20161022 09:43:08.209 | INFO  | Ended test case 'Get Selected List Value'
+20161022 09:43:08.210 | INFO  | Started test case 'Get Selected List Values'
+20161022 09:43:08.320 | INFO  | Ended test case 'Get Selected List Values'
+20161022 09:43:08.321 | INFO  | Started test case 'Get Selected List Label'
+20161022 09:43:08.575 | INFO  | Ended test case 'Get Selected List Label'
+20161022 09:43:08.576 | INFO  | Started test case 'Get Selected List Labels'
+20161022 09:43:09.049 | INFO  | Ended test case 'Get Selected List Labels'
+20161022 09:43:09.050 | INFO  | Started test case 'List Selection Should Be'
+20161022 09:43:09.583 | INFO  | Ended test case 'List Selection Should Be'
+20161022 09:43:09.584 | INFO  | Started test case 'List Selection Should Be When Extraneous Options Are Selected'
+20161022 09:43:09.712 | INFO  | Ended test case 'List Selection Should Be When Extraneous Options Are Selected'
+20161022 09:43:09.713 | INFO  | Started test case 'List Selection Should Be When List Does Not Exist'
+20161022 09:43:10.076 | INFO  | Ended test case 'List Selection Should Be When List Does Not Exist'
+20161022 09:43:10.077 | INFO  | Started test case 'UnSelect Single Value From List'
+20161022 09:43:10.743 | INFO  | Ended test case 'UnSelect Single Value From List'
+20161022 09:43:10.744 | INFO  | Started test case 'UnSelect All From List'
+20161022 09:43:10.951 | INFO  | Ended test case 'UnSelect All From List'
+20161022 09:43:10.952 | INFO  | Started test case 'Select From Single Selection List'
+20161022 09:43:12.114 | INFO  | Ended test case 'Select From Single Selection List'
+20161022 09:43:12.115 | INFO  | Started test case 'Select Non-Existing Item From Single Selection List'
+20161022 09:43:12.233 | WARN  | Option(s) 'Tin Can Phone' not found within list 'preferred_channel'.
+20161022 09:43:12.343 | WARN  | Option(s) 'Tin Can Phone' not found within list 'preferred_channel'.
+20161022 09:43:12.412 | WARN  | Option(s) 'Smoke Signals' not found within list 'preferred_channel'.
+20161022 09:43:12.448 | INFO  | Ended test case 'Select Non-Existing Item From Single Selection List'
+20161022 09:43:12.449 | INFO  | Started test case 'Select Non-Existing Item From Multi-Selection List'
+20161022 09:43:12.760 | INFO  | Ended test case 'Select Non-Existing Item From Multi-Selection List'
+20161022 09:43:12.761 | INFO  | Started test case 'Unselect Non-Existing Item From List'
+20161022 09:43:12.995 | INFO  | Ended test case 'Unselect Non-Existing Item From List'
+20161022 09:43:12.997 | INFO  | Started test case 'Select From Multiselect List'
+20161022 09:43:13.713 | INFO  | Ended test case 'Select From Multiselect List'
+20161022 09:43:13.714 | INFO  | Started test case 'Select All From List'
+20161022 09:43:14.071 | INFO  | Ended test case 'Select All From List'
+20161022 09:43:14.072 | INFO  | Started test case 'List Should Have No Selections'
+20161022 09:43:14.435 | INFO  | Ended test case 'List Should Have No Selections'
+20161022 09:43:14.443 | INFO  | Ended test suite 'Lists'
+20161022 09:43:14.444 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Mouse'
+20161022 09:43:14.445 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:14.445 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:14.445 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:14.445 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:14.446 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:14.446 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:14.446 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:14.447 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:14.447 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:14.447 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:14.448 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:14.448 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:14.448 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:14.449 | INFO  | Started test suite 'Mouse'
+20161022 09:43:14.450 | INFO  | Started test case 'Mouse Over'
+20161022 09:43:14.584 | INFO  | Ended test case 'Mouse Over'
+20161022 09:43:14.585 | INFO  | Started test case 'Mouse Out'
+20161022 09:43:14.874 | INFO  | Ended test case 'Mouse Out'
+20161022 09:43:14.875 | INFO  | Started test case 'Mouse Down'
+20161022 09:43:15.043 | INFO  | Ended test case 'Mouse Down'
+20161022 09:43:15.044 | INFO  | Started test case 'Mouse Up'
+20161022 09:43:15.312 | INFO  | Ended test case 'Mouse Up'
+20161022 09:43:15.312 | INFO  | Started test case 'Focus'
+20161022 09:43:15.427 | INFO  | Ended test case 'Focus'
+20161022 09:43:15.428 | INFO  | Started test case 'Simulate'
+20161022 09:43:15.712 | INFO  | Ended test case 'Simulate'
+20161022 09:43:15.717 | INFO  | Ended test suite 'Mouse'
+20161022 09:43:15.717 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Navigation'
+20161022 09:43:15.718 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:15.718 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:15.718 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:15.718 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:15.719 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:15.719 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:15.719 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:15.720 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:15.720 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:15.720 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:15.721 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:15.721 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:15.721 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:15.723 | INFO  | Started test suite 'Navigation'
+20161022 09:43:15.724 | INFO  | Started test case 'Go To'
+20161022 09:43:15.756 | INFO  | Ended test case 'Go To'
+20161022 09:43:15.757 | INFO  | Started test case 'Go Back'
+20161022 09:43:16.084 | INFO  | Ended test case 'Go Back'
+20161022 09:43:16.085 | INFO  | Started test case 'Click Link'
+20161022 09:43:16.465 | INFO  | Ended test case 'Click Link'
+20161022 09:43:16.466 | INFO  | Started test case 'Click Link With Whitespace'
+20161022 09:43:16.546 | INFO  | Ended test case 'Click Link With Whitespace'
+20161022 09:43:16.548 | INFO  | Started test case 'Click Link With Embedded Whitespace'
+20161022 09:43:16.639 | INFO  | Ended test case 'Click Link With Embedded Whitespace'
+20161022 09:43:16.640 | INFO  | Started test case 'Click Link With Bolded Link Text'
+20161022 09:43:16.884 | INFO  | Ended test case 'Click Link With Bolded Link Text'
+20161022 09:43:16.886 | INFO  | Started test case 'Click Link By Id'
+20161022 09:43:16.975 | INFO  | Ended test case 'Click Link By Id'
+20161022 09:43:16.976 | INFO  | Started test case 'Click Link By Href'
+20161022 09:43:17.215 | INFO  | Ended test case 'Click Link By Href'
+20161022 09:43:17.216 | INFO  | Started test case 'Click Link With Double Quote'
+20161022 09:43:17.299 | INFO  | Ended test case 'Click Link With Double Quote'
+20161022 09:43:17.300 | INFO  | Started test case 'Click Link With Special Characters'
+20161022 09:43:17.382 | INFO  | Ended test case 'Click Link With Special Characters'
+20161022 09:43:17.383 | INFO  | Started test case 'Click Link With Unicode'
+20161022 09:43:17.471 | INFO  | Ended test case 'Click Link With Unicode'
+20161022 09:43:17.473 | INFO  | Started test case 'Click Image'
+20161022 09:43:17.560 | INFO  | Ended test case 'Click Image'
+20161022 09:43:17.560 | INFO  | Started test case 'Click Image By Alt'
+20161022 09:43:17.748 | INFO  | Ended test case 'Click Image By Alt'
+20161022 09:43:17.748 | INFO  | Started test case 'Click Image By Id'
+20161022 09:43:17.845 | INFO  | Ended test case 'Click Image By Id'
+20161022 09:43:17.846 | INFO  | Started test case 'Click Image By XPath'
+20161022 09:43:17.931 | INFO  | Ended test case 'Click Image By XPath'
+20161022 09:43:17.931 | INFO  | Started test case 'Click Link With Text And Image'
+20161022 09:43:18.014 | INFO  | Ended test case 'Click Link With Text And Image'
+20161022 09:43:18.015 | INFO  | Started test case 'Target Opens in New Window'
+20161022 09:43:19.209 | INFO  | Ended test case 'Target Opens in New Window'
+20161022 09:43:19.216 | INFO  | Ended test suite 'Navigation'
+20161022 09:43:19.218 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Run On Failure'
+20161022 09:43:19.219 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:19.219 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:19.220 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:19.220 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:19.220 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:19.221 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:19.221 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:19.221 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:19.222 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:19.222 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:19.222 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:19.222 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:19.222 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:19.225 | INFO  | Started test suite 'Run On Failure'
+20161022 09:43:19.271 | INFO  | Started test case 'Run On Failure Keyword Only Called Once'
+20161022 09:43:19.275 | INFO  | Imported test library class 'CustomSeleniumKeywords' from 'E:\Selenium2Library-devloping-elvis\test\resources\testlibs\CustomSeleniumKeywords.py'.
+20161022 09:43:19.275 | INFO  | Capture Page Screenshot will be run on failure.
+20161022 09:43:19.286 | INFO  | Adding keyword 'screenshot_root_directory' to library 'CustomSeleniumKeywords' failed: Not a method or function
+20161022 09:43:19.291 | INFO  | Imported library 'CustomSeleniumKeywords' with arguments [ ] (version 1.8.0, class type, global scope, 166 keywords, with listener)
+20161022 09:43:19.300 | INFO  | Ended test case 'Run On Failure Keyword Only Called Once'
+20161022 09:43:19.301 | INFO  | Started test case 'Log Title On Failure'
+20161022 09:43:19.341 | INFO  | Ended test case 'Log Title On Failure'
+20161022 09:43:19.342 | INFO  | Started test case 'Disable Run on Failure'
+20161022 09:43:19.359 | INFO  | Ended test case 'Disable Run on Failure'
+20161022 09:43:19.360 | INFO  | Started test case 'Run on Failure Returns Previous Value'
+20161022 09:43:19.366 | INFO  | Ended test case 'Run on Failure Returns Previous Value'
+20161022 09:43:19.372 | INFO  | Ended test suite 'Run On Failure'
+20161022 09:43:19.372 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Screenshots'
+20161022 09:43:19.372 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:19.373 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:19.373 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:19.373 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:19.373 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:19.373 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:19.373 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:19.374 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:19.374 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:19.375 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:19.375 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:19.375 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:19.375 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:19.376 | INFO  | Started test suite 'Screenshots'
+20161022 09:43:19.396 | INFO  | Started test case 'Capture page screenshot to default location'
+20161022 09:43:20.818 | INFO  | Ended test case 'Capture page screenshot to default location'
+20161022 09:43:20.819 | INFO  | Started test case 'Capture page screenshot to custom file'
+20161022 09:43:20.933 | INFO  | Ended test case 'Capture page screenshot to custom file'
+20161022 09:43:20.934 | INFO  | Started test case 'Capture page screenshot to custom directory'
+20161022 09:43:21.051 | INFO  | Ended test case 'Capture page screenshot to custom directory'
+20161022 09:43:21.052 | INFO  | Started test case 'Capture page screenshot to non-existing directory'
+20161022 09:43:21.167 | INFO  | Ended test case 'Capture page screenshot to non-existing directory'
+20161022 09:43:21.168 | INFO  | Started test case 'Capture page screenshot to custom root directory'
+20161022 09:43:21.287 | INFO  | Ended test case 'Capture page screenshot to custom root directory'
+20161022 09:43:21.288 | INFO  | Started test case 'Ensure screenshot captures revert to default root directory'
+20161022 09:43:21.403 | INFO  | Ended test case 'Ensure screenshot captures revert to default root directory'
+20161022 09:43:21.403 | INFO  | Started test case 'Capture page screenshot with unique index'
+20161022 09:43:21.751 | INFO  | Ended test case 'Capture page screenshot with unique index'
+20161022 09:43:21.752 | INFO  | Started test case 'Capturing a page screenshot with two indexes should not cause an error'
+20161022 09:43:21.868 | INFO  | Ended test case 'Capturing a page screenshot with two indexes should not cause an error'
+20161022 09:43:21.869 | INFO  | Started test case 'Capture page screenshot with index formatting'
+20161022 09:43:22.098 | INFO  | Ended test case 'Capture page screenshot with index formatting'
+20161022 09:43:22.100 | INFO  | Started test case 'Capture page screenshot with escaped braces'
+20161022 09:43:22.331 | INFO  | Ended test case 'Capture page screenshot with escaped braces'
+20161022 09:43:22.335 | INFO  | Ended test suite 'Screenshots'
+20161022 09:43:22.336 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Tables'
+20161022 09:43:22.337 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:22.337 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:22.337 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:22.337 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:22.337 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:22.338 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:22.338 | INFO  | Parsing file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\table_resource.robot'.
+20161022 09:43:22.339 | INFO  | Imported resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\table_resource.robot' (2 keywords).
+20161022 09:43:22.339 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:22.340 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:22.340 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:22.340 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:22.340 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:22.341 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:22.341 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:22.343 | INFO  | Started test suite 'Tables'
+20161022 09:43:22.378 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Tables.Col Should Contain'
+20161022 09:43:22.379 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:22.379 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:22.379 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:22.380 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:22.380 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:22.381 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:22.381 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\table_resource.robot' from cache
+20161022 09:43:22.382 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:22.386 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:22.386 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:22.386 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:22.387 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:22.387 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:22.387 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:22.388 | INFO  | Started test suite 'Col Should Contain'
+20161022 09:43:22.389 | INFO  | Started test case 'Should Find Text In Specific Column'
+20161022 09:43:22.889 | INFO  | Ended test case 'Should Find Text In Specific Column'
+20161022 09:43:22.890 | INFO  | Started test case 'Should Give Error Message When Content Not Found In Table Column'
+20161022 09:43:22.953 | INFO  | Ended test case 'Should Give Error Message When Content Not Found In Table Column'
+20161022 09:43:22.954 | INFO  | Started test case 'Should Give Error Message When Column Number Out Of Bounds'
+20161022 09:43:22.992 | INFO  | Ended test case 'Should Give Error Message When Column Number Out Of Bounds'
+20161022 09:43:22.995 | INFO  | Ended test suite 'Col Should Contain'
+20161022 09:43:22.996 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Tables.Finding Tables'
+20161022 09:43:22.996 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:22.996 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:22.997 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:22.997 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:22.997 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:22.997 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:22.997 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\table_resource.robot' from cache
+20161022 09:43:22.998 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:22.999 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:23.000 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:23.000 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:23.000 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:23.000 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:23.000 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:23.002 | INFO  | Started test suite 'Finding Tables'
+20161022 09:43:23.004 | INFO  | Started test case 'Should Identify Table By CSS'
+20161022 09:43:23.453 | INFO  | Ended test case 'Should Identify Table By CSS'
+20161022 09:43:23.455 | INFO  | Ended test suite 'Finding Tables'
+20161022 09:43:23.455 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Tables.Footer Should Contain'
+20161022 09:43:23.456 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:23.456 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:23.456 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:23.456 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:23.456 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:23.457 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:23.457 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\table_resource.robot' from cache
+20161022 09:43:23.457 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:23.458 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:23.458 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:23.458 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:23.459 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:23.459 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:23.459 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:23.460 | INFO  | Started test suite 'Footer Should Contain'
+20161022 09:43:23.461 | INFO  | Started test case 'Should Find Text In Footer'
+20161022 09:43:23.766 | INFO  | Ended test case 'Should Find Text In Footer'
+20161022 09:43:23.768 | INFO  | Started test case 'Should Give Error Message When Content Not Found In Table Footer'
+20161022 09:43:23.845 | INFO  | Ended test case 'Should Give Error Message When Content Not Found In Table Footer'
+20161022 09:43:23.847 | INFO  | Ended test suite 'Footer Should Contain'
+20161022 09:43:23.848 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Tables.Get Table Cell'
+20161022 09:43:23.848 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:23.848 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:23.849 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:23.849 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:23.849 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:23.849 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:23.850 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\table_resource.robot' from cache
+20161022 09:43:23.850 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:23.852 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:23.852 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:23.853 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:23.853 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:23.853 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:23.853 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:23.855 | INFO  | Started test suite 'Get Table Cell'
+20161022 09:43:23.855 | INFO  | Started test case 'Should Retrieve Text From Cell'
+20161022 09:43:25.251 | INFO  | Ended test case 'Should Retrieve Text From Cell'
+20161022 09:43:25.252 | INFO  | Started test case 'Should Give Error Message When Content Not Found In Table Cell'
+20161022 09:43:25.297 | INFO  | Ended test case 'Should Give Error Message When Content Not Found In Table Cell'
+20161022 09:43:25.298 | INFO  | Started test case 'Should Give Error Message When Index Out Of Bounds'
+20161022 09:43:25.344 | INFO  | Ended test case 'Should Give Error Message When Index Out Of Bounds'
+20161022 09:43:25.347 | INFO  | Ended test suite 'Get Table Cell'
+20161022 09:43:25.348 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Tables.Header Should Contain'
+20161022 09:43:25.348 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:25.349 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:25.349 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:25.349 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:25.349 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:25.349 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:25.350 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\table_resource.robot' from cache
+20161022 09:43:25.350 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:25.351 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:25.351 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:25.351 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:25.351 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:25.351 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:25.352 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:25.353 | INFO  | Started test suite 'Header Should Contain'
+20161022 09:43:25.355 | INFO  | Started test case 'Should Find Text In Header'
+20161022 09:43:25.908 | INFO  | Ended test case 'Should Find Text In Header'
+20161022 09:43:25.909 | INFO  | Started test case 'Should Give Error Message When Content Not Found In Table Header'
+20161022 09:43:25.969 | INFO  | Ended test case 'Should Give Error Message When Content Not Found In Table Header'
+20161022 09:43:25.971 | INFO  | Ended test suite 'Header Should Contain'
+20161022 09:43:25.972 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Tables.Negative Indexes'
+20161022 09:43:25.972 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:25.972 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:25.972 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:25.973 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:25.973 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:25.973 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:25.973 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\table_resource.robot' from cache
+20161022 09:43:25.973 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:25.974 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:25.974 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:25.975 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:25.975 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:25.975 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:25.975 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:25.976 | INFO  | Started test suite 'Negative Indexes'
+20161022 09:43:25.977 | INFO  | Started test case 'Test negative index for CSS strategy in 'Table Row Should Contain''
+20161022 09:43:26.008 | INFO  | Ended test case 'Test negative index for CSS strategy in 'Table Row Should Contain''
+20161022 09:43:26.009 | INFO  | Started test case 'Test negative index for XPath strategy in 'Table Row Should Contain''
+20161022 09:43:26.030 | INFO  | Ended test case 'Test negative index for XPath strategy in 'Table Row Should Contain''
+20161022 09:43:26.031 | INFO  | Started test case 'Test negative index for CSS strategy in 'Table Column Should Contain''
+20161022 09:43:26.062 | INFO  | Ended test case 'Test negative index for CSS strategy in 'Table Column Should Contain''
+20161022 09:43:26.063 | INFO  | Started test case 'Test negative index for XPath strategy in 'Table Column Should Contain''
+20161022 09:43:26.085 | INFO  | Ended test case 'Test negative index for XPath strategy in 'Table Column Should Contain''
+20161022 09:43:26.086 | INFO  | Started test case 'Test negative index for XPath strategy in 'Table Cell Should Contain''
+20161022 09:43:26.148 | INFO  | Ended test case 'Test negative index for XPath strategy in 'Table Cell Should Contain''
+20161022 09:43:26.149 | INFO  | Started test case 'Test negative index for CSS strategy in 'Table Cell Should Contain''
+20161022 09:43:26.245 | INFO  | Ended test case 'Test negative index for CSS strategy in 'Table Cell Should Contain''
+20161022 09:43:26.249 | INFO  | Ended test suite 'Negative Indexes'
+20161022 09:43:26.249 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Tables.Row Should Contain'
+20161022 09:43:26.250 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:26.250 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:26.250 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:26.250 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:26.250 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:26.251 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:26.251 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\table_resource.robot' from cache
+20161022 09:43:26.251 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:26.252 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:26.252 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:26.252 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:26.252 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:26.253 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:26.253 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:26.254 | INFO  | Started test suite 'Row Should Contain'
+20161022 09:43:26.255 | INFO  | Started test case 'Should Find Text In Specific Row'
+20161022 09:43:27.630 | INFO  | Ended test case 'Should Find Text In Specific Row'
+20161022 09:43:27.631 | INFO  | Started test case 'Should Find Text In Specific Row with CSS Specific Mechanics'
+20161022 09:43:27.649 | INFO  | Ended test case 'Should Find Text In Specific Row with CSS Specific Mechanics'
+20161022 09:43:27.650 | INFO  | Started test case 'Should Give Error Message When Content Not Found In Table Row'
+20161022 09:43:27.689 | INFO  | Ended test case 'Should Give Error Message When Content Not Found In Table Row'
+20161022 09:43:27.690 | INFO  | Started test case 'Should Give Error Message When Row Number Out Of Bounds'
+20161022 09:43:27.712 | INFO  | Ended test case 'Should Give Error Message When Row Number Out Of Bounds'
+20161022 09:43:27.715 | INFO  | Ended test suite 'Row Should Contain'
+20161022 09:43:27.715 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Tables.Table Should Contain'
+20161022 09:43:27.716 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:27.716 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:27.716 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:27.717 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:27.717 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:27.717 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:27.717 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\tables\table_resource.robot' from cache
+20161022 09:43:27.718 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:27.719 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:27.719 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:27.719 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:27.719 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:27.720 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:27.720 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:27.721 | INFO  | Started test suite 'Table Should Contain'
+20161022 09:43:27.722 | INFO  | Started test case 'Should Find Text In Table Content'
+20161022 09:43:29.027 | INFO  | Ended test case 'Should Find Text In Table Content'
+20161022 09:43:29.028 | INFO  | Started test case 'Should Find Text In Table Content with CSS Specific Mechanics'
+20161022 09:43:29.045 | INFO  | Ended test case 'Should Find Text In Table Content with CSS Specific Mechanics'
+20161022 09:43:29.046 | INFO  | Started test case 'Should Give Error Message When Content Not Found In Table'
+20161022 09:43:29.234 | INFO  | Ended test case 'Should Give Error Message When Content Not Found In Table'
+20161022 09:43:29.238 | INFO  | Ended test suite 'Table Should Contain'
+20161022 09:43:29.247 | INFO  | Ended test suite 'Tables'
+20161022 09:43:29.249 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Textfields'
+20161022 09:43:29.249 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:29.249 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:29.250 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:29.250 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:29.250 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:29.250 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:29.250 | INFO  | Importing variable file 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\variables.py' with args []
+20161022 09:43:29.253 | INFO  | Imported variable file module 'variables' from 'E:\Selenium2Library-devloping-elvis\test\acceptance\keywords\variables.py'.
+20161022 09:43:29.253 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:29.254 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:29.255 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:29.255 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:29.255 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:29.256 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:29.256 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:29.257 | INFO  | Started test suite 'Textfields'
+20161022 09:43:29.258 | INFO  | Started test case 'Get Value From Text Field'
+20161022 09:43:29.349 | INFO  | Ended test case 'Get Value From Text Field'
+20161022 09:43:29.349 | INFO  | Started test case 'Input Unicode In Text Field'
+20161022 09:43:29.727 | INFO  | Ended test case 'Input Unicode In Text Field'
+20161022 09:43:29.728 | INFO  | Started test case 'Input Password'
+20161022 09:43:29.964 | INFO  | Ended test case 'Input Password'
+20161022 09:43:29.964 | INFO  | Started test case 'Press Key'
+20161022 09:43:30.189 | INFO  | Ended test case 'Press Key'
+20161022 09:43:30.190 | INFO  | Started test case 'Attempt Clear Element Text On Non-Editable Field'
+20161022 09:43:30.246 | INFO  | Ended test case 'Attempt Clear Element Text On Non-Editable Field'
+20161022 09:43:30.249 | INFO  | Ended test suite 'Textfields'
+20161022 09:43:30.250 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Keywords.Waiting'
+20161022 09:43:30.250 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:30.250 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:30.250 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:30.251 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:30.251 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:30.251 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:30.251 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:30.252 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:30.252 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:30.252 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:30.253 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:30.253 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:30.253 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:30.254 | INFO  | Started test suite 'Waiting'
+20161022 09:43:30.255 | INFO  | Started test case 'Wait For Condition'
+20161022 09:43:31.538 | INFO  | Ended test case 'Wait For Condition'
+20161022 09:43:31.539 | INFO  | Started test case 'Wait Until Page Contains'
+20161022 09:43:31.816 | INFO  | Ended test case 'Wait Until Page Contains'
+20161022 09:43:31.819 | INFO  | Started test case 'Wait Until Page Does Not Contain'
+20161022 09:43:33.180 | INFO  | Ended test case 'Wait Until Page Does Not Contain'
+20161022 09:43:33.181 | INFO  | Started test case 'Wait Until Page Contains Element'
+20161022 09:43:34.509 | INFO  | Ended test case 'Wait Until Page Contains Element'
+20161022 09:43:34.510 | INFO  | Started test case 'Wait Until Page Does Not Contain Element'
+20161022 09:43:35.821 | INFO  | Ended test case 'Wait Until Page Does Not Contain Element'
+20161022 09:43:35.821 | INFO  | Started test case 'Wait Until Element Is Visible'
+20161022 09:43:37.463 | INFO  | Ended test case 'Wait Until Element Is Visible'
+20161022 09:43:37.463 | INFO  | Started test case 'Wait Until Element Is Enabled'
+20161022 09:43:39.064 | INFO  | Ended test case 'Wait Until Element Is Enabled'
+20161022 09:43:39.064 | INFO  | Started test case 'Wait Until Element Contains'
+20161022 09:43:40.460 | INFO  | Ended test case 'Wait Until Element Contains'
+20161022 09:43:40.461 | INFO  | Started test case 'Wait Until Element Does Not Contain'
+20161022 09:43:41.819 | INFO  | Ended test case 'Wait Until Element Does Not Contain'
+20161022 09:43:41.826 | INFO  | Ended test suite 'Waiting'
+20161022 09:43:44.990 | INFO  | Ended test suite 'Keywords'
+20161022 09:43:45.003 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Locators'
+20161022 09:43:45.004 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:45.004 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:45.004 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:45.004 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:45.004 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:45.005 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:45.005 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:45.006 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:45.007 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:45.007 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:45.007 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:45.007 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:45.007 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:45.009 | INFO  | Started test suite 'Locators'
+20161022 09:43:49.314 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Locators.Custom'
+20161022 09:43:49.315 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:49.315 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:49.316 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:49.316 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:49.316 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:49.317 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:49.317 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:49.318 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:49.319 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:49.319 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:49.319 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:49.320 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:49.320 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:49.322 | INFO  | Started test suite 'Custom'
+20161022 09:43:49.559 | INFO  | Started test case 'Test Custom Locator'
+20161022 09:43:49.579 | INFO  | Ended test case 'Test Custom Locator'
+20161022 09:43:49.580 | INFO  | Started test case 'Ensure Locator Auto Unregisters'
+20161022 09:43:49.584 | INFO  | Ended test case 'Ensure Locator Auto Unregisters'
+20161022 09:43:49.585 | INFO  | Started test case 'Ensure Attempting to Unregister a Default Locator Fails'
+20161022 09:43:49.587 | INFO  | Ended test case 'Ensure Attempting to Unregister a Default Locator Fails'
+20161022 09:43:49.588 | INFO  | Started test case 'Ensure Unregistering a Non-Existent Locator Does Not Fail'
+20161022 09:43:49.591 | INFO  | Ended test case 'Ensure Unregistering a Non-Existent Locator Does Not Fail'
+20161022 09:43:49.591 | INFO  | Started test case 'Ensure a Custom Locator can be Unregistered'
+20161022 09:43:49.595 | INFO  | Ended test case 'Ensure a Custom Locator can be Unregistered'
+20161022 09:43:49.596 | INFO  | Started test case 'Ensure Locators Can Persist'
+20161022 09:43:49.608 | INFO  | Ended test case 'Ensure Locators Can Persist'
+20161022 09:43:49.610 | INFO  | Ended test suite 'Custom'
+20161022 09:43:49.611 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Locators.Sizzle'
+20161022 09:43:49.611 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:49.612 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:49.612 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:49.612 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:49.612 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:49.612 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:49.612 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:49.613 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:49.613 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:49.614 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:49.614 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:49.614 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:49.614 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:49.615 | INFO  | Started test suite 'Sizzle'
+20161022 09:43:49.616 | INFO  | Started test case 'Find By Id'
+20161022 09:43:50.250 | INFO  | Ended test case 'Find By Id'
+20161022 09:43:50.252 | INFO  | Started test case 'Find In Table'
+20161022 09:43:50.706 | INFO  | Ended test case 'Find In Table'
+20161022 09:43:50.707 | INFO  | Started test case 'Find By Everything Else'
+20161022 09:43:50.842 | INFO  | Ended test case 'Find By Everything Else'
+20161022 09:43:50.846 | INFO  | Ended test suite 'Sizzle'
+20161022 09:43:53.881 | INFO  | Ended test suite 'Locators'
+20161022 09:43:53.882 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Multiple Browsers'
+20161022 09:43:53.882 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:43:53.882 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:43:53.883 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:43:53.883 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:43:53.883 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:43:53.883 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:43:53.883 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:43:53.884 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:43:53.885 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:43:53.885 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:43:53.885 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:43:53.885 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:43:53.885 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:43:53.887 | INFO  | Started test suite 'Multiple Browsers'
+20161022 09:49:04.513 | INFO  | Started test case 'Last Opened Browser Should Be Active'
+20161022 09:49:04.519 | INFO  | Ended test case 'Last Opened Browser Should Be Active'
+20161022 09:49:04.520 | INFO  | Started test case 'It Should Be Possible To Switch Between Browsers Using Indexes'
+20161022 09:49:04.524 | INFO  | Ended test case 'It Should Be Possible To Switch Between Browsers Using Indexes'
+20161022 09:49:04.525 | INFO  | Started test case 'It Should Be Give An Alias To New Browser Instance'
+20161022 09:49:04.527 | INFO  | Ended test case 'It Should Be Give An Alias To New Browser Instance'
+20161022 09:49:04.528 | INFO  | Started test case 'It Should Be Possible Close A Browser'
+20161022 09:49:04.532 | INFO  | Ended test case 'It Should Be Possible Close A Browser'
+20161022 09:49:04.533 | INFO  | Started test case 'Correct Error Message Should Be Given When Trying To Switch To Non-Existing Browser'
+20161022 09:49:04.535 | INFO  | Ended test case 'Correct Error Message Should Be Given When Trying To Switch To Non-Existing Browser'
+20161022 09:49:10.624 | INFO  | Ended test suite 'Multiple Browsers'
+20161022 09:49:10.625 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Open And Close'
+20161022 09:49:10.625 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:49:10.626 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:49:10.626 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:49:10.626 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:49:10.626 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:49:10.627 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:49:10.627 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:49:10.628 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:49:10.629 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:49:10.629 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:49:10.629 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:49:10.630 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:49:10.630 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:49:10.635 | INFO  | Started test suite 'Open And Close'
+20161022 09:49:10.637 | INFO  | Started test case 'Browser Should Open And Close'
+20161022 09:49:18.358 | INFO  | Ended test case 'Browser Should Open And Close'
+20161022 09:49:18.359 | INFO  | Started test case 'Browser Open With Implicit Wait Should Not Override Default'
+20161022 09:49:25.652 | INFO  | Ended test case 'Browser Open With Implicit Wait Should Not Override Default'
+20161022 09:49:25.654 | INFO  | Started test case 'There Should Be A Good Error Message If Browser Is Not Opened'
+20161022 09:49:25.663 | INFO  | Ended test case 'There Should Be A Good Error Message If Browser Is Not Opened'
+20161022 09:49:25.665 | INFO  | Started test case 'Close Browser Does Nothing When No Browser Is Opened'
+20161022 09:49:25.676 | INFO  | Ended test case 'Close Browser Does Nothing When No Browser Is Opened'
+20161022 09:49:25.677 | INFO  | Started test case 'Browser Open With Not Well-Formed URL Should Close'
+20161022 09:49:32.430 | INFO  | Ended test case 'Browser Open With Not Well-Formed URL Should Close'
+20161022 09:49:32.438 | INFO  | Ended test suite 'Open And Close'
+20161022 09:49:32.440 | INFO  | Initializing namespace for test suite 'Unit & Acceptance.Acceptance.Windows'
+20161022 09:49:32.440 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'D:\Python27\lib\site-packages\robot\libraries\BuiltIn.pyc'.
+20161022 09:49:32.441 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20161022 09:49:32.441 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'D:\Python27\lib\site-packages\robot\libraries\Reserved.pyc'.
+20161022 09:49:32.441 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20161022 09:49:32.442 | INFO  | Imported test library module 'robot.libraries.Easter' from 'D:\Python27\lib\site-packages\robot\libraries\Easter.pyc'.
+20161022 09:49:32.442 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20161022 09:49:32.442 | INFO  | Found resource file 'E:\Selenium2Library-devloping-elvis\test\acceptance\resource.robot' from cache
+20161022 09:49:32.443 | INFO  | Imported test library class 'Selenium2Library' from 'E:\Selenium2Library-devloping-elvis\src\Selenium2Library\__init__.pyc'.
+20161022 09:49:32.443 | INFO  | Found test library 'Selenium2Library' with arguments [ run_on_failure=Nothing | implicit_wait=0 ] from cache
+20161022 09:49:32.444 | INFO  | Imported test library class 'robot.libraries.Collections' from 'D:\Python27\lib\site-packages\robot\libraries\Collections.pyc'.
+20161022 09:49:32.444 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20161022 09:49:32.444 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'D:\Python27\lib\site-packages\robot\libraries\OperatingSystem.pyc'.
+20161022 09:49:32.444 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20161022 09:49:32.458 | INFO  | Started test suite 'Windows'
+20161022 09:49:38.598 | INFO  | Started test case 'Popup Windows Created With Javascript'
+20161022 09:49:40.123 | INFO  | Ended test case 'Popup Windows Created With Javascript'
+20161022 09:49:40.124 | INFO  | Started test case 'Get Window Titles'
+20161022 09:49:41.262 | INFO  | Ended test case 'Get Window Titles'
+20161022 09:49:41.263 | INFO  | Started test case 'Get Window Names'
+20161022 09:49:41.365 | INFO  | Ended test case 'Get Window Names'
+20161022 09:49:41.366 | INFO  | Started test case 'Get Window Identifiers'
+20161022 09:49:41.462 | INFO  | Ended test case 'Get Window Identifiers'
+20161022 09:49:41.462 | INFO  | Started test case 'Get and Set Window Size'
+20161022 09:49:42.753 | INFO  | Ended test case 'Get and Set Window Size'
+20161022 09:49:42.754 | INFO  | Started test case 'Get and Set Window Position'
+20161022 09:49:43.098 | INFO  | Ended test case 'Get and Set Window Position'
+20161022 09:49:43.098 | INFO  | Started test case 'Select Window By Title After Close Window'
+20161022 09:49:43.481 | INFO  | Ended test case 'Select Window By Title After Close Window'
+20161022 09:49:43.482 | INFO  | Started test case 'Get Window Titles After Close Window'
+20161022 09:49:44.701 | INFO  | Ended test case 'Get Window Titles After Close Window'
+20161022 09:49:44.702 | INFO  | Started test case 'Select Window By Handle'
+20161022 09:49:46.274 | INFO  | Ended test case 'Select Window By Handle'
+20161022 09:49:46.275 | INFO  | Started test case 'Select Popup Window By Excluded List'
+20161022 09:49:47.479 | INFO  | Ended test case 'Select Popup Window By Excluded List'
+20161022 09:49:47.480 | INFO  | Started test case 'Select Window By Special Locator'
+20161022 09:49:49.017 | INFO  | Ended test case 'Select Window By Special Locator'
+20161022 09:49:52.071 | INFO  | Ended test suite 'Windows'
+20161022 09:49:52.161 | INFO  | Ended test suite 'Acceptance'
+20161022 09:49:52.224 | INFO  | Ended test suite 'Unit & Acceptance'
+20161022 09:49:52.266 | INFO  | Output: E:\Selenium2Library-devloping-elvis\test\results\output.xml
+20161022 09:49:52.275 | INFO  | Tests execution ended. Statistics:
+249 critical tests, 244 passed, 5 failed
+249 tests total, 244 passed, 5 failed

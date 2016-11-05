@@ -2,7 +2,7 @@
 import os
 from time import sleep
 
-from elvis.test_dir.test_selenium import webdriver
+from elvis.Web_selenium.test_selenium import webdriver
 
 if 'HTTP_PROXY' in os.environ:
     del os.environ['HTTP_PROXY']

@@ -2,7 +2,7 @@
 
 from test_selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-from elvis.test_dir.test_selenium import webdriver
+from elvis.Web_selenium.test_selenium import webdriver
 
 
 def process_remote_task(url):

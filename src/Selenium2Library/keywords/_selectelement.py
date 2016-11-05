@@ -70,7 +70,7 @@ class _SelectElementKeywords(KeywordGroup):
     def list_selection_should_be(self, locator, *items):
         """Verifies the selection of select list identified by `locator` is exactly `*items`.
 
-        If you want to test that no option is selected, simply give no `items`.
+        If you want to test_selenium2library that no option is selected, simply give no `items`.
 
         Select list keywords work on both lists and combo boxes. Key attributes for
         select lists are `id` and `name`. See `introduction` for details about

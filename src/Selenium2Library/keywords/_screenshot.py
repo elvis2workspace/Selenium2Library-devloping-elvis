@@ -21,7 +21,7 @@ class _ScreenshotKeywords(KeywordGroup):
         ``path`` argument specifies the absolute path where the screenshots
         should be written to. If the specified ``path`` does not exist,
         it will be created. Setting ``persist`` specifies that the given
-        ``path`` should be used for the rest of the test execution, otherwise
+        ``path`` should be used for the rest of the test_selenium2library execution, otherwise
         the path will be restored at the end of the currently executing scope.
         """
         path = os.path.abspath(path)
@@ -96,7 +96,7 @@ class _ScreenshotKeywords(KeywordGroup):
                 raise RuntimeError('Failed to save screenshot ' + link)
         # Image is shown on its own row and thus prev row is closed on purpose
         self._html('</td></tr><tr><td colspan="3"><a href="%s">'
-                   '<img src="%s" width="800px"></a>' % (link, link))
+                   '<img res="%s" width="800px"></a>' % (link, link))
         return path
 
     # Private

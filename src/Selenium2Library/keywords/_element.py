@@ -558,7 +558,7 @@ return !element.dispatchEvent(evt);
         See `Page Should Contain Element` for explanation about `message` and
         `loglevel` arguments.
 
-        Key attributes for images are `id`, `src` and `alt`. See
+        Key attributes for images are `id`, `res` and `alt`. See
         `introduction` for details about locating elements.
         """
         self._page_should_not_contain_element(locator, 'link', message, loglevel)
@@ -568,7 +568,7 @@ return !element.dispatchEvent(evt);
     def click_image(self, locator):
         """Clicks an image found by `locator`.
 
-        Key attributes for images are `id`, `src` and `alt`. See
+        Key attributes for images are `id`, `res` and `alt`. See
         `introduction` for details about locating elements.
         """
         self._info("Clicking image '%s'." % locator)
@@ -581,7 +581,7 @@ return !element.dispatchEvent(evt);
     def mouse_down_on_image(self, locator):
         """Simulates a mouse down event on an image.
 
-        Key attributes for images are `id`, `src` and `alt`. See
+        Key attributes for images are `id`, `res` and `alt`. See
         `introduction` for details about locating elements.
         """
         element = self._element_find(locator, True, True, 'image')
@@ -593,7 +593,7 @@ return !element.dispatchEvent(evt);
         See `Page Should Contain Element` for explanation about `message` and
         `loglevel` arguments.
 
-        Key attributes for images are `id`, `src` and `alt`. See
+        Key attributes for images are `id`, `res` and `alt`. See
         `introduction` for details about locating elements.
         """
         self._page_should_contain_element(locator, 'image', message, loglevel)
@@ -604,7 +604,7 @@ return !element.dispatchEvent(evt);
         See `Page Should Contain Element` for explanation about `message` and
         `loglevel` arguments.
 
-        Key attributes for images are `id`, `src` and `alt`. See
+        Key attributes for images are `id`, `res` and `alt`. See
         `introduction` for details about locating elements.
         """
         self._page_should_not_contain_element(locator, 'image', message, loglevel)
@@ -655,7 +655,7 @@ return !element.dispatchEvent(evt);
         """Adds a custom location strategy based on a user keyword. Location strategies are
         automatically removed after leaving the current scope by default. Setting `persist`
         to any non-empty string will cause the location strategy to stay registered throughout
-        the life of the test.
+        the life of the test_selenium2library.
 
         Trying to add a custom location strategy with the same name as one that already exists will
         cause the keyword to fail.

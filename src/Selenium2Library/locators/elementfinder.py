@@ -150,8 +150,8 @@ class ElementFinder(object):
     _key_attrs = {
         None: ['@id', '@name'],
         'a': ['@id', '@name', '@href', 'normalize-space(descendant-or-self::text())'],
-        'img': ['@id', '@name', '@src', '@alt'],
-        'input': ['@id', '@name', '@value', '@src'],
+        'img': ['@id', '@name', '@res', '@alt'],
+        'input': ['@id', '@name', '@value', '@res'],
         'button': ['@id', '@name', '@value', 'normalize-space(descendant-or-self::text())']
     }
 
@@ -201,7 +201,7 @@ class ElementFinder(object):
         attrs = []
         url = None
         xpath_url = None
-        for attr in ['@src', '@href']:
+        for attr in ['@res', '@href']:
             if attr in key_attrs:
                 if url is None or xpath_url is None:
                     url = self._get_base_url(browser) + "/" + criteria

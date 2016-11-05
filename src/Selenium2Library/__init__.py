@@ -34,8 +34,8 @@ class Selenium2Library(
 
     = Before running tests =
 
-    Prior to running test cases using Selenium2Library, Selenium2Library must be
-    imported into your Robot test suite (see `importing` section), and the
+    Prior to running test_selenium2library cases using Selenium2Library, Selenium2Library must be
+    imported into your Robot test_selenium2library suite (see `importing` section), and the
     `Open Browser` keyword must be used to open a browser to the desired location.
 
 

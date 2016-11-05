@@ -48,7 +48,7 @@ class _TableElementKeywords(KeywordGroup):
         """Verifies that a certain cell in a table contains `expected`.
 
         Row and column number start from 1. This keyword passes if the
-        specified cell contains the given content. If you want to test
+        specified cell contains the given content. If you want to test_selenium2library
         that the cell content matches exactly, or that it e.g. starts
         with some text, use `Get Table Cell` keyword in combination
         with built-in keywords such as `Should Be Equal` or `Should

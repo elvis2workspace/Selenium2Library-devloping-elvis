@@ -45,7 +45,7 @@ class _BrowserManagementKeywords(KeywordGroup):
         After this keyword new indexes returned from `Open Browser` keyword
         are reset to 1.
 
-        This keyword should be used in test or suite teardown to make sure
+        This keyword should be used in test_selenium2library or suite teardown to make sure
         all browsers are closed.
         """
         self._debug('Closing all browsers')
@@ -439,7 +439,7 @@ class _BrowserManagementKeywords(KeywordGroup):
     def set_selenium_speed(self, seconds):
         """Sets the delay in seconds that is waited after each test_selenium command.
 
-        This is useful mainly in slowing down the test execution to be able to
+        This is useful mainly in slowing down the test_selenium2library execution to be able to
         view the execution. `seconds` may be given in Robot Framework time
         format. Returns the previous speed value.
 

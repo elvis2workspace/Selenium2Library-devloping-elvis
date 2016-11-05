@@ -8,7 +8,7 @@ except:
         print """Robot Framework 2.7 or later required for generating documentation"""
 else:
     def main():
-        libdoc(join(dirname(__file__), '..', 'src', 'Selenium2Library'),
+        libdoc(join(dirname(__file__), '..', 'res', 'Selenium2Library'),
                join(dirname(__file__), 'Selenium2Library.html'))
 
 if __name__ == '__main__':

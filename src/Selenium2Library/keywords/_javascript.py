@@ -10,7 +10,7 @@ class _JavaScriptKeywords(KeywordGroup):
         """Executes the given JavaScript code.
 
         `code` may contain multiple lines of code and may be divided into
-        multiple cells in the test data. In that case, the parts are
+        multiple cells in the test_selenium2library data. In that case, the parts are
         catenated together without adding spaces.
 
         If `code` is an absolute path to an existing file, the JavaScript

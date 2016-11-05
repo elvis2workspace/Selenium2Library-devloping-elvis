@@ -5,9 +5,9 @@ Created on 2015年9月7日
 
 @author: zhang.xiuhai
 '''
-import web
 import os
 
+import web
 
 urls = (
         '/hello', 'Log'
@@ -22,13 +22,12 @@ PATH = lambda p: os.path.abspath(
 path = PATH(
             '../templates'
         )
-# render = web.template.render('D:\workspace\myPython\gothonweb\templates/')
+# render = web.template.render('D:\workspace\myPython\gothonweb1\templates/')
 # root = os.path.dirname(__file__)
 # path = os.path.join(root, '..', 'templates/')
 print path
 
-
-# render = web.template.render(r'D:\workspace\myPython\gothonweb\templates', base="layout")
+# render = web.template.render(r'D:\workspace\myPython\gothonweb1\templates', base="layout")
 
 render = web.template.render(r'D:\workspace\myPython\gothonweb\templates')
 

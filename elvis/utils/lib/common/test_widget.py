@@ -6,15 +6,16 @@ Created on 2015年4月1日
 @author: zhangxiuhai
 '''
 import unittest
-from widget.WidgetExample import Widget  
 
- 
-# 执行测试的类  
+import WidgetExample
+
+
+# 执行测试的类
 class WidgetTestCase(unittest.TestCase):
 
 
     def setUp(self):
-        self.widget = Widget()  
+        self.widget = WidgetExample.Widget()
         
     def tearDown(self):
         self.widget = None 
@@ -35,5 +36,5 @@ class WidgetTestCase(unittest.TestCase):
         return suite 
      
 if __name__ == "__main__":
-    #import sys;sys.argv = ['', 'Test.testName']
+    # import sys;sys.argv = ['', 'Test.testName']
     unittest.main(defaultTest = 'suites')

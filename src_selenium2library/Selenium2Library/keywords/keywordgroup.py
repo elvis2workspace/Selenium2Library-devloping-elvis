@@ -11,9 +11,12 @@ if sys.platform == 'cli':
 
 def _run_on_failure_decorator(method, *args, **kwargs):
     self = args[0]
-    already_in_keyword = getattr(self, "_already_in_keyword",
-                                 False)  # If False, we are in the outermost keyword (or in `run_keyword`, if it's a dynamic library)
-    self._already_in_keyword = True  # Set a flag on the instance so that as we call keywords inside this call and this gets run again, we know we're at least one level in.
+    # If False, we are in the outermost keyword (or in `run_keyword`, if it's a dynamic library)
+    already_in_keyword = getattr(self, "_already_in_keyword", False)
+
+    # Set a flag on the instance so that as we call keywords inside this call and this gets run again,
+    # we know we're at least one level in.
+    self._already_in_keyword = True
     try:
         return method(*args, **kwargs)
     except Exception as err:
